@@ -1,0 +1,2 @@
+dsregcmd /leave
+exit

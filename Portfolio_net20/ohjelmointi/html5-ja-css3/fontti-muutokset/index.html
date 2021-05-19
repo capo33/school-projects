@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muuta fonttikokoa</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="javascript.js">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Grenze&family=Mansalva&family=Roboto&family=Turret+Road&display=swap"
+    rel="stylesheet">
+  <script type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+  <section>
+    <h1>Muuta fonttikokoa JavaScriptillä</h1>
+    <p>
+        HUOM! Tee kaikki muutokset Javascriptinavulla. Tässä esimerkissä on käytetty fonttia "Josefin Sans".
+    </p>
+    <p>
+        Listan fonttikokoa muutetaan alla olevaa painonappia painamalla. Määrittele ensin bodyn fonttikoko 10px. Muuta sen jälkeen fontin kokoa
+        käyttäen suhteellista yksikköä em em. Listan oletusfonttikoko on 16px.
+    </p>
+    <h2>Tämän listan fonttikoko pitää muuttua nappia painamalla</h2>
+    <button type="button" onclick="fontsize()">Fontin koko</button>
+      <ol id="changefontsize">
+        <li>Ensimmäinen napin painallus muuttaa fonttikoon 20px</li>
+        <li>Toinen napin painallus muuttaa fonttikoon 24px</li>
+        <li>Kolmas napin painallus muuttaa fonttikoon 28px</li>
+        <li>Neljäs napin painallus muuttaa fonttikoon 32px</li>
+        <li>Viides napin painallus palauttaa fonttikoon 20px</li>
+      </ol>
+  </section>
+  <section id="fontstyle">
+    <h1>Muuta fonttityyppiä Javascriptillä</h1>
+    <p><span class="capslock">Huom!</span> Tee kaikki muutokset Javascriptin avulla.</p>
+    <p>
+        Listan fonttityyppiä muutetaan alla olevaa painonappia painamalla.
+        Määrittele ensin bodyn fonttityyppi "Courier New" fonttikoko 10px.
+        Listan oletusfonttikoko on 16px.
+    </p>
+    <h2>Tämän listan fonttityypin pitää muuttua nappia painamalla</h2>
+      <ol id="changefontstyle">
+        <li>Ensimmäinen napin painallus muuttaa fonttityypiksi "Roboto"</li>
+        <li>Seuraava napin painallus muuttaa fonttityypiksi "Mansalva"</li>
+        <li>Seuraava napin painallus muuttaa fonttityypiksi "Grenze"</li>
+        <li>Seuraava napin painallus muuttaa fonttityypiksi "Turret Road"</li>
+        <li>Seuraava napin painallus palauttaa fonttityypiksi "Courier New"</li>
+      </ol>
+    <p>Käytössä on nyt fontti <span id="currentFontFamily">"Courier New"</span></p>
+    <button type="button" onclick="fontstyle()">Muuta fontti</button>
+  </section>
+</body>
+</html>

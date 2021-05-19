@@ -1,0 +1,120 @@
+html {
+    font-size: 62.5%; /* 62,5 % x 16 px = 10 px*/
+}
+
+body{
+    background-color: darkcyan;
+    padding: 10px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    font-size: 1rem;
+    font-family: "Gotham", Helvetica, Arial, sans-serif;
+}
+.wrapper > *{
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+.header{
+    background-color: gold;
+}
+.navigation{
+    padding: 0;
+}
+.nav-bar{
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+    background-color: white;
+}
+.nav-bar > *{     
+    padding: 10px;
+    border: black solid 1px;
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+    border: solid black 1px
+ }
+.nav-bar li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color: darkorange;
+    padding: 0px;
+}
+
+.main p {
+    padding: 10px;
+}
+
+.some{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+  }
+.some > *{
+    padding: 10px;
+    color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    flex-grow: 1;
+    text-align: center;
+    
+}
+.some li a{
+    color: white;
+}
+.facebook{
+    background-color: #3b5998;
+ 
+}
+.twitter {
+    background-color: lightskyblue;
+}
+.mail {
+    background-color: gray;
+}
+.aside-1{
+    background-color: mediumseagreen;
+}
+.aside-2{
+    background-color: seagreen;
+}
+.footer{
+    background-color: lightgreen;
+}
+@media screen and (min-width:426px){
+    .wrapper{
+        flex-direction: row;
+    }
+    .aside-1{
+        flex-basis: auto;
+    }
+    .aside-2{
+        flex-basis: auto;
+    }
+}
+@media screen and (min-width:769px){
+    .aside-1{
+        order: 1;
+        flex-basis: 0px;
+    }
+    .main{
+        order: 2;
+        flex-basis: 400px;
+    }
+    .aside-2{
+        order: 3;
+        flex-basis: 0px;
+    }
+    .footer{
+        order: 4;
+    }
+}

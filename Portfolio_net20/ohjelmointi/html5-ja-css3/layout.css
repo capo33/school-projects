@@ -1,0 +1,99 @@
+html{
+    font-size: 62.5%;
+    color: black;
+}
+body{
+    border: solid 1px  #69013B;
+    margin: 5px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header{
+    background-color: #69013B;
+    font-size: 1.5rem;
+    color: #f9dbcd;
+    padding: 10px;   
+}
+header h1, h2, h3{
+    padding: 5px;
+
+}
+#logo{
+    float: right;
+    width: 10rem;
+}
+figure img{
+    max-width: 10rem;
+
+}
+.footer{
+    background-color: #69013B;
+    color: #f9dbcd;
+    font-size: 1rem;
+    padding: 5px;
+}
+footer a{
+    color: #f9dbcd;
+}
+footer a:hover{
+    text-decoration: none;
+    background-color:#f9dbcd ;
+    color:#69013B ;
+}
+
+.ops{
+    padding: 10px;
+}
+.ops h1{
+    padding-bottom: 1rem;
+}
+.sisennys-2rem{
+    padding: 5px;
+    padding-left: 2rem;
+}
+.sisennys-4rem{
+    padding-left: 4rem;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.darker{ 
+    background-color: gray;
+    color: white;
+}
+.darker a:link {
+    background-color: gray;
+    color: white;
+}
+a:link{
+    text-decoration:none;
+    color: black;
+}
+a:hover{
+    background-color: #69013B;
+    color: #F4D8CF;}
+
+
+.sisennys-6rem{
+    font-size: 12px;
+    padding-left: 6rem;
+    margin-bottom: 1rem;
+}
+.sisennys-6rem li{
+    padding: .5rem;
+    font-style: italic;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+
+}

@@ -1,0 +1,32 @@
+body{
+    border: 5px solid black;
+    position: absolute;
+}
+*{
+    box-sizing: border-box;
+    margin: 3px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+#special{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 50px;
+    width: 500px;
+    
+}
+figure img{
+    width: 500px ;
+    height: 190px;
+    display:block;
+    
+}
+.muotoiltu{
+    background-color: lightgray;
+    font-size: 15px;
+    width: 500px;
+    
+}

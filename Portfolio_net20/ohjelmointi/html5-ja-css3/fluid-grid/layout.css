@@ -1,0 +1,155 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: whitesmoke;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+.col-12 section {
+    background-color: peachpuff;
+    float: left;
+    height: 50px;
+    margin-right: 1%;
+    width: 7.4167%;
+}
+
+.col-12 section:last-child {
+    margin-right: 0;
+}
+
+.col-11 section {
+    background-color: rgb(228, 228, 100);
+    float: left;
+    height: 50px;
+    margin-right: 1%;
+    width: 8.1818%;
+}
+
+.col-11 section:last-child {
+    margin-right: 0;
+}
+
+.col-10 section {
+    background-color:#ffff00;
+    float: left;
+    height: 50px;
+    margin-right: 1%;
+    width: 9.1000%;
+}
+
+.col-10 section:last-child {
+    margin-right: 0;
+}
+
+.col-9 section {
+    background-color:  rgb(233, 173, 23)  ;
+    float: left;
+    height: 50px;
+    margin-right: 1%;
+    width: 10.2222%;
+}
+
+.col-9 section:last-child {
+    margin-right: 0;
+}
+
+.col-8 section {
+    background-color: orange;
+    float: left;
+    height: 50px;
+    margin-right: 1%;
+    width: 11.6250%;
+}
+
+.col-8 section:last-child {
+    margin-right: 0;
+}
+
+.col-7 section {
+    background-color: brown;
+    float: left;
+    height: 50px;
+    margin-right: 1%;
+    width: 13.4286%;
+}
+
+.col-7 section:last-child {
+    margin-right: 0;
+}
+
+.col-6 section {
+    background-color: green;
+    float: left;
+    height: 50px;
+    margin-right: 1%;
+    width: 15.8333%;
+}
+
+.col-6 section:last-child {
+    margin-right: 0;
+}
+
+.col-5 section {
+    background-color: rgb(8, 179, 8);
+    float: left;
+    height: 50px;
+    margin-right: 1%;
+    width: 19.2000%;
+}
+
+.col-5 section:last-child {
+    margin-right: 0;
+}
+
+.col-4 section {
+    background-color: #8000ff;
+    float: left;
+    height: 50px;
+    margin-right: 1%;
+    width: 24.2500%;
+}
+
+.col-4 section:last-child {
+    margin-right: 0;
+}
+
+.col-3 section {
+    background-color: #00bfff;
+    float: left;
+    height: 50px;
+    margin-right: 1%;
+    width: 32.6667%;
+}
+
+.col-3 section:last-child {
+    margin-right: 0;
+}
+
+.col-2 section {
+    background-color: #4000ff;
+    float: left;
+    height: 50px;
+    margin-right: 1%;
+    width:  49.5000%;
+}
+
+.col-2 section:last-child {
+    margin-right: 0;
+}
+
+.col-1 section {
+    background-color: #ff00ff;
+    float: left;
+    height: 50px;
+    margin-right: 1%;
+    width: 100%;
+}
+
+.col-1 section:last-child {
+    margin-right: 0;
+}

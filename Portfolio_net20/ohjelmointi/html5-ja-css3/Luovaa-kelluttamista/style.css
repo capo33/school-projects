@@ -1,0 +1,96 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.container {
+    width: 400px ;
+    box-sizing: border-box;
+    margin: 10px;
+    border: solid black 1px;
+    border-radius: 15px;
+    background-color: gainsboro;
+    background-image: linear-gradient(to bottom right, gainsboro, white);
+    padding: 1em;
+}
+
+.container .image{
+    float: left;
+    width: 30%;
+}
+
+.clear-fix::after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+.container .heading{
+    font-weight: bold;
+    font-size: 1.5rem;
+    float: right;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.container .image img{
+    padding: 5px;
+    border: 1px darkgrey lightgrey solid;
+    background-color: white;
+    border-top: 1px solid lightgray;
+    border-right: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;;
+    border-left: 1px solid lightgray;
+    box-shadow: 3px 3px darkgrey;
+    max-width: 100%;
+}
+
+.container .text{
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.clear-fix-reverse .heading {
+    float: left;
+}
+
+.clear-fix-reverse .text {
+    float: left;
+}
+
+.clear-fix-reverse .image {
+    float: right;
+}
+
+.clear-fix-reverse .image img {
+    float: right;
+}
+
+@media screen and (max-width: 425px){
+    body{
+        margin: 0;
+    }
+
+    .container {
+        width: 100%;
+        min-width: 320px;
+        margin: 0 0 10px 0;
+        padding: 10px;
+    }
+}
+

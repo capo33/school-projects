@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 70%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin: auto;
+    border: dotted 2px;
+    background-color: honeydew;
+}
+
+header{
+    border-bottom: dotted 2px;
+    padding: 0 2%;
+}
+
+section{
+    padding: 0 2%;
+}
+
+img{
+    min-width: 500px;
+    margin: auto;
+    transform: translate(50px);
+}  
+
+footer{
+    border-top: dotted 2px;
+    padding: 0 2%;
+}

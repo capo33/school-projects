@@ -1,0 +1,136 @@
+html {
+    font-size: 62.5%; /* 62,5 % x 16 px = 10 px*/
+}
+
+body {
+    padding: 10px;
+}
+
+section {
+    background-color: #bbddee;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2rem; /* 2 x 10px =20px (2 x html tÃ¤gissÃ¤ mÃ¤Ã¤rielty fonttikoko */
+    font-weight: bold;
+    padding: 10px;
+}
+#toka h2, #kolmas h2{
+    background-color: #88aabb;
+    text-align: right;
+    padding: 10px;
+    text-transform: lowercase;
+    margin: -10px -10px 10px -10px;
+    font-weight: bold;
+    font-size: 200%;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+    font-size: 150%;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    padding: 10px;
+}
+
+p {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 10px;
+}
+
+pre {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    font-family: "Courier New", Courier, monospace;
+    margin-left: 1rem;
+    padding: 10px;
+}
+
+.iso-q {
+    float: left;
+    font-size: 400%; /* 500 % x 10px = 50px */
+    width: 1.2em; /* 1,2 x 50px = 60px */
+    text-align: center;
+    padding: 0.1em 01em 0;
+    background: #568;
+    color: white;
+    border: solid white;
+    border-width: 0 0.2em 0.2em 0;
+    margin: -10px 0.5em 0.2em -10px;
+}
+
+.bannerikuva {
+    float: left;
+    width: 80px;
+    text-align: center;
+    padding: 0.1em 01em 0;
+    background: white;
+    color: white;
+    border: solid white 1px;
+    border-width: 0 0.2em 0.2em 0;
+    margin: -10px 0.5em 0.2em -10px;
+    border: solid black 1px;
+}
+
+.bannerikuva img {
+    max-width: 100%;
+}
+
+.banneriteksti {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    background: white;
+    color: black;
+    border: solid black 1px;
+    border-width: 1px 1px 1px 1px;
+    margin: -11px 0.5em 0.2em -11px;
+}
+
+.banner-right {
+    float: right;
+    width: 25%;
+    text-align: left;
+    font-size: 140%;
+    font-weight: bold;
+    font-style: italic;
+    padding: 1em;
+    text-indent: -0.5em;
+    background: white;
+    color: black;
+    border: solid black 1px;
+    border-width: 1px 0 1px 1px;
+    margin: 0.2em -11px 0.2em 0.5em;
+}
+
+#kolmas {
+    border: solid black 1px;
+}
+
+#toka {
+    border: solid black 1px;
+}
+
+ol {
+    list-style: decimal;
+    margin-left: 3rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 3rem;
+    margin-bottom: 10px;
+}
+
+ul li, ol li {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+

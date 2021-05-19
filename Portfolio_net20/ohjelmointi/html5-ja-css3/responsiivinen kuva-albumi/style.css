@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #EEE;
+    font: 10px/13px 'Lucida Sans',sans-serif;
+    display: block;
+ }
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box {
+flex-basis: 100%;
+flex-grow: 1;
+}
+
+figure {
+padding: 0.3rem;
+margin-block-start: 0em;
+margin-block-end: 0em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+
+}
+figure img {
+max-width: 100%;
+}
+
+figcaption {
+padding: 10px; 
+text-align: center;
+position: relative;
+height: 20px;
+top: -40px;
+color: white;
+background-color: rgba(0, 0, 0, .4);
+opacity: 0;
+margin-bottom: -2.5rem;
+} 
+
+figcaption:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width : 650px) and (min-width : 481px) {
+ 
+.wrap {
+    flex-direction: row;
+}
+
+.wrap > * {
+    flex-grow: 1;
+    flex-basis: 50%;
+
+}
+
+}
+
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+    
+.wrap {
+        flex-direction: row;
+    }
+
+.wrap > * {
+        flex-grow: 1;
+        flex-basis: 33.3%;
+}
+
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+
+.wrap {
+        flex-direction: row;
+    }
+
+.wrap > * {
+        flex-grow: 1;
+        flex-basis: 25%;
+} 
+
+}
+
+@media only screen and (min-width : 1291px) {
+
+    .wrap {
+        flex-direction: row;
+    }
+    
+    .wrap > * {
+        flex-grow: 1;
+        flex-basis: 15%;
+    } 
+
+}
+
+
+
+

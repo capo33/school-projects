@@ -1,0 +1,287 @@
+body{
+    font-size: 62.5%;
+    font-family: sans-serif;
+    background-color:  #84C15B;  
+}
+
+#logo{
+    max-width: 100%;
+    display: block;
+}
+
+img{
+    max-width: 100%;
+}
+
+.nav-bar{
+    margin: 10px;
+}
+
+.nav-bar ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+}
+
+.nav-bar ol li {
+    background-color: #9DCD7C;
+    font-size: 1.3rem;
+    border: #6D9A4D solid 1px;
+    border-radius: 7px;
+}
+
+.nav-bar ol li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    text-align: center;
+}
+
+.nav-bar ol li:hover{
+    background-color: yellowgreen;
+}
+
+#maincontent{
+    margin: 10px;
+}
+
+#vision section {
+    color: black;
+    font-size: 1.8rem;
+    padding: 1rem;
+    margin-bottom: .5rem;
+}
+
+#vision figure {
+    display:none;
+}
+
+#boxes h1 {
+    background-color: #CBCBCB;
+    margin: 0.5rem;
+    padding: 0.8rem;
+}
+
+#boxes figure {
+    margin: 0.5rem;
+    padding: 0;
+}
+#boxes {
+    background-color: white;
+ }
+
+#specials, #events, #news{
+    border-bottom: #84C15B solid 1.2rem;
+    font-size: 1.5rem;
+ }
+
+ h1{
+    background-color: #CBCBCB;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: solid white 10px ;
+    border-width: 0.5em 0 0.5em 0;
+  }
+
+.some {
+    float: right;
+    display: flex;
+}
+
+.some > * {
+    flex-direction: row;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.contact-info{
+    color: white;
+    font-size: 1rem;
+    margin: 10px;
+}
+
+.program{
+    margin: .5rem;
+}
+
+th{
+    width: 5rem;
+}
+
+ tr th{
+    font-weight: bold;
+    text-align: left;
+}
+
+footer {
+    padding: 0.5rem;
+}
+
+#dark{
+    color: black;
+}
+
+.greater {
+    float: right;
+}
+
+@media only screen and (min-width: 426px) {
+    #vision {
+        background-image: url(./images/gray-sand.png);
+        position: top left;
+        background-repeat: repeat-x repeat-y;
+        background-color: #f9f2ac;
+    }
+
+    #nav-bar ol {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        list-style: none;
+        
+    }
+
+    ol li {
+        flex-basis: 0px;
+        flex-grow: 1;
+    }
+
+    #vision {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        border: solid white 0.5rem;
+        border-bottom: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #vision figure {
+        max-width: 1000px;
+        order: 2;
+        flex-basis: 0px;
+        flex-grow: 1;
+        display: block;
+    }
+
+    #vision section {
+        order: 1;
+        flex-basis: 0px;
+        flex-grow: 2;
+        vertical-align: middle;   
+    }
+    
+    #boxes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #boxes #specials {
+        flex-basis: 0px;
+        flex-grow: 1;
+    }
+
+    #boxes #events {
+        flex-basis: 0px;
+        flex-grow: 1;
+    }
+
+    #today {
+        border-top: none;
+    }
+
+    #news {
+        flex-basis: 100%;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    #vision {
+        background-image: url(./images/gray-sand.png);
+        position: top left;
+        background-repeat: repeat-x repeat-y;
+        background-color: wheat; 
+    }
+
+    .nav-bar{
+        margin: 10px;
+    
+    }
+    nav ol{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        list-style: none;
+
+    }
+    nav ol li {
+        background-color:  #9DCD7C;
+        color: white;
+        font-size: 1.5rem;
+        border: #6D9A4D solid 1px;
+        padding: 15px;
+        text-align: center;
+        border-radius: 7px;
+        max-width: 100%;
+        text-decoration: none;
+    }
+        
+    li:hover{
+        background-color: yellowgreen;
+    }
+
+    #vision {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        border: solid white 0.5rem;
+        border-bottom: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #vision figure {
+        max-width: 1000px;
+        order: 2;
+        flex-basis: 0px;
+        flex-grow: 1;
+        display: block;
+    }
+
+    #vision section {
+        order: 1;
+        flex-basis: 0px;
+        flex-grow: 2;
+        vertical-align: middle;   
+    }
+
+    #boxes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #boxes #specials {
+        flex-basis: 0px;
+        flex-grow: 1;
+    }
+
+    #boxes #events {
+        flex-basis: 0px;
+        flex-grow: 1;
+
+    }
+
+    #today {
+        border-top: none;
+    }
+
+    #news {
+        flex-basis: 0px;
+        flex-grow: 1;
+    }
+    
+}

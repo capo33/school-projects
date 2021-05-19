@@ -1,0 +1,56 @@
+/* mobile first */
+
+html {
+    font-size: 62.5%; 
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;    
+    padding: 1rem;
+    
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+footer{
+    font-size: 1.3rem;
+}
+
+figure img {
+    max-width: 100%;
+}
+ .apple{
+    width: 40rem;
+ }
+
+ footer{
+    background-color: antiquewhite;
+    padding: 15px;
+    text-align: center;
+    margin: 100px 0;
+}
+/* bodyelementtien välittömät lapset */
+body > * {
+    margin-bottom: 1rem;
+ } 
+ 
+  @media only screen and (min-width: 426px) {
+    .parent {
+        display: flex;  
+        flex-direction: row; 
+        flex-wrap: nowrap; 
+    }   
+    .parent > * { 
+        flex-grow: 1;  
+        flex-basis: 0; 
+
+    }
+
+ }

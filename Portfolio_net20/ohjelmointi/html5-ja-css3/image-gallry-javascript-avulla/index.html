@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="layout.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="editImage.js">
+
+    <script type="text/javascript" src="./scripts/editImage.js"></script>
+
+</head>
+<body>
+    
+    <h1>Snapshots</h1>
+    <section>
+        <ul>
+            <li><a href="./image/js-gallery-fireworks.jpg" title="Fireworks display" onClick="showPic(this); return false">Fireworks</a></li>
+            <li><a href="./image/js-gallery-coffee.jpg" title="A cuo of Black Coffe" onClick="showPic(this); return false">Coffe</a></li>
+            <li><a href="./image/js-gallery-rose.jpg" title="A red, red rose" onClick="showPic(this); return false">Rose</a></li>
+            <li><a href="./image/js-gallery-bigben.jpg" title="The Famous Clock" onClick="showPic(this); return false">Big Ben</a></li>
+        </ul>
+        <img id= "placeholder" src="https://via.placeholder.com/400x300.png?text=Mohamed+placeholder" alt="my image gallery">
+        <p id="description">Choose an image.</p>
+    </section>
+    
+</body>
+</html>

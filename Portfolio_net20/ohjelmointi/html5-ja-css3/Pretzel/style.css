@@ -1,0 +1,235 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #FAF0E6;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.2;
+}
+
+#special {
+    background-image: url(./image/special-bg.png);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    background-color: #6a8088;
+    color: white;
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+}
+
+#special > * {
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-size: 1.5rem;
+    padding: 5px 0px 10px 5px;
+}
+
+#special h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#wrapper {
+    background-color: #faf7ee;
+    max-width: 960px;
+    margin: auto;
+    box-sizing: border-box;
+    line-height: 150%;
+}
+
+.ol-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-image: url(./image/grunge.png);
+    background-repeat: repeat-x;
+    align-items: center;
+    border: solid grey 1px;
+    border-width: 0 0 1px 0;
+    margin: 0 10px 10px 10px;
+    text-decoration: none;
+}
+
+.ol-header > * {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+}
+  
+.ol-header li {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+  
+.ol-header p {
+    text-transform: lowercase;
+    letter-spacing: 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+  
+header nav ol li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.dark {
+    color: black;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#main {
+    width: 60%;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+  
+.bold{
+    font-weight: bold;
+    padding-bottom: 5px;
+    line-height: 150%;
+}
+  
+.bold span {
+    text-transform: uppercase;
+}
+  
+#main p {
+padding-bottom: 10px;
+}
+
+figure img {
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+
+#sidebar {
+    width: 40%;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+  
+#sidebar h2 {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#sidebar ol {
+    column-count: 2;
+    margin-bottom: 10px;
+}
+
+aside nav ol li a {
+    color:  #00bfff;
+    line-height: 200%;
+    text-decoration: underline;
+}
+
+.ourPretzels {
+    border: solid grey 1px;
+    border-width: 0 0 1px 0;
+}
+
+.aboutUs {
+    border: solid grey 1px;
+    border-width: 0 0 1px 0;
+}
+
+.callout {
+    background-color: #f5e8c5;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer  {
+    text-align: center;
+    color: grey;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+footer figure img {
+    max-width: 100%;
+    opacity: 0.3;
+    padding: 10px;
+}
+
+footer figure img {
+    opacity: 0.3;
+    max-width: 4rem;    
+    padding: 1rem;
+}
+
+@media screen and (min-width: 551px) and (max-width: 800px) { 
+    .ol-header p {
+      display: none;
+    }
+  
+    #middle-section {
+      flex-wrap: wrap;
+    }
+  
+    #main {
+      flex-grow: 1;
+      flex-basis: 100%;
+    }
+  
+    #sidebar {
+      flex-grow: 1;
+      flex-basis: 100%;
+    }
+}
+  
+  
+@media screen and (max-width: 550px) {  
+    #special h1 {
+      padding-bottom: 0;
+    }
+  
+    .ol-header p {
+      display: none;
+    }
+  
+    .ol-header li {
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+    }
+  
+    #middle-section {
+      flex-wrap: wrap;
+    }
+  
+    #main {
+      flex-grow: 1;
+      flex-basis: 100%;
+    }
+  
+    #sidebar {
+      flex-grow: 1;
+      flex-basis: 100%;
+    } 
+  
+    .ol-header figure {
+      flex-basis: 100%;
+      text-align: center;
+    }
+}
+  
+  

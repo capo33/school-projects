@@ -1,0 +1,90 @@
+html {
+    font-size: 62.5%;
+}
+
+#wrapper {
+    max-width:300px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#eka {
+    width: 230px;
+    height: 120px;
+    background-color: lightblue;
+    opacity: 0.4;
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    animation-name: lightbluecolor;
+    animation-duration: 4s;
+    z-index: -1;
+}
+
+@keyframes lightbluecolor {
+    from {top:-210px;}
+    to {left:160px}
+}
+
+#toka {
+    width: 70px;
+    height: 170px; /* #kolmas (height 150 + padding 20) */
+    background-color: rgb(178, 238, 144);
+    opacity: 0.4;
+    position: absolute;
+    top: 70px;
+    left: 210px;
+    animation-name: lightgreencolor;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    z-index: -1;
+}
+
+@keyframes lightgreencolor {
+    from {left:-100px;}
+    to {left: 210px; visibility: visible;}
+}
+
+#kolmas {
+    border: solid orange 10px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-right: 30px;
+    width: 300px;
+    height: 150px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+#kappale1 {
+    font-size: 2rem;
+    letter-spacing: 7px;
+    font-family: monospace;
+}
+
+#kappale2 {
+    color: lightskyblue;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.magenta {
+    color: white;
+    background-color: #B4009E;
+    padding-left: 20px;   
+}
+
+figure, p {
+    padding: 5px;
+    text-align: center;
+}

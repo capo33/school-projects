@@ -1,0 +1,46 @@
+body{font-size: 62.5%;
+    font-family: 'Comic Neue', cursive;
+}
+
+h1 {
+    padding: 20px;
+    margin-top: 10px;
+    color: #CCCCCC;
+    font-size: 3rem;
+    letter-spacing: 20px;
+    text-transform: lowercase;
+    font-weight: bolder;
+}
+
+section {
+    background-color: #CCCCCC;
+    padding-top: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+
+section ul li a {
+    padding: 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+
+img {
+    border: solid white 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    padding: 0 0 5px 20px;
+    font-size: 1rem;
+}
